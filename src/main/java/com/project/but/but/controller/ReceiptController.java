@@ -20,8 +20,4 @@ public class ReceiptController {
         return receiptList;
     }
 
-    @GetMapping(value = "/a")
-    public void selectAllBy(){
-
-    }
 }

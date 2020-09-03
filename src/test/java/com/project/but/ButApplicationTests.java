@@ -23,6 +23,7 @@ class ButApplicationTests {
         Receipt receipt = new Receipt();
         receipt.setTitle("첫 번째 영수증");
         receipt.setUserId(1);
+        receipt.setShopName("첫 번째 가게");
         receipt.setCreateDate(new Date());
 
         receiptRepository.save(receipt);
