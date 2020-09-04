@@ -1,7 +1,7 @@
 package com.project.but.but.controller;
 
 import com.project.but.but.entity.Receipt;
-import com.project.but.but.service.ReceiptService;
+import com.project.but.but.service.Receipt.ReceiptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
